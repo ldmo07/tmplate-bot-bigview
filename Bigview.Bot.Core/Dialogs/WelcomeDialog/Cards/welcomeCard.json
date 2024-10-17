@@ -1,0 +1,35 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://cdn.dribbble.com/users/9663942/screenshots/17462771/media/e82ea5ed212db7fbc3a540bdf33c394d.jpg?compress=1&resize=800x600&vertical=top"
+    },
+    {
+      "type": "TextBlock",
+      "spacing": "Medium",
+      "size": "Default",
+      "weight": "Bolder",
+      "text": "Bienvenido a BIU - Bigview",
+      "wrap": true,
+      "maxLines": 0
+    },
+    {
+      "type": "TextBlock",
+      "size": "Default",
+      "isSubtle": true,
+      "text": "Estoy en entrenamiento tratame con paciencia, Puedes preguntarme. Requiero ver mis notas",
+      "wrap": true,
+      "maxLines": 0
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "title": "Ir a Bigview",
+      "url": "https://www.bigview.com.co"
+    }
+  ]
+}

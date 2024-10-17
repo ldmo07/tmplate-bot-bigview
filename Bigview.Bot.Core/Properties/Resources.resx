@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnswerQuestionHandlerAsyncNotUnderstand" xml:space="preserve">
+    <value>Disculpa, aún no puedo responder a esa solicitud. Sin embargo puedo orientarte en los siguientes servicios:</value>
+    <comment>Train Model Answering</comment>
+  </data>
+  <data name="BotNotUnderstand" xml:space="preserve">
+    <value>Disculpa, aún no puedo responder a esa solicitud. Sin embargo puedo orientarte en los siguientes servicios:</value>
+    <comment>Train Models Or Dialogs</comment>
+  </data>
+  <data name="CancelAndHelpDialogCancelMsgText" xml:space="preserve">
+    <value>Cancelando ...</value>
+  </data>
+  <data name="CancelAndHelpDialogHelpMsgText" xml:space="preserve">
+    <value>Monstrando la ayuda que se requiere para el funcionamiento del BOT</value>
+  </data>
+  <data name="CardsFirtsCard" xml:space="preserve">
+    <value>firstCard.json</value>
+  </data>
+  <data name="CardsPrincipalMenu" xml:space="preserve">
+    <value>menuCard.json</value>
+  </data>
+  <data name="CardsSecondCard" xml:space="preserve">
+    <value>secondCard.json</value>
+  </data>
+  <data name="CardsWelcomeCard" xml:space="preserve">
+    <value>welcomeCard.json</value>
+  </data>
+  <data name="ConversationalHandlerAsyncNotUnderstand" xml:space="preserve">
+    <value>Parece que aun no estoy entrenado para responderte esto</value>
+    <comment>Train Model Language</comment>
+  </data>
+  <data name="DialogsEntityCalificaciones" xml:space="preserve">
+    <value>calificaciones</value>
+    <comment>entity id from Language Undestarting Entities</comment>
+  </data>
+  <data name="DialogsEntityCertificaciones" xml:space="preserve">
+    <value>certificaciones</value>
+    <comment>entity id from Language Undestarting Entities</comment>
+  </data>
+  <data name="LoggerOnMessageActivityAsync" xml:space="preserve">
+    <value>Running dialog with Message Activity.</value>
+  </data>
+  <data name="MenuDialogStudentFount" xml:space="preserve">
+    <value>Hola  {0}, Sú nota final encontrada en nuestros servicios {1}.</value>
+  </data>
+  <data name="PropertyDialogState" xml:space="preserve">
+    <value>DialogState</value>
+    <comment>Run the Dialog with the new message Activity.</comment>
+  </data>
+  <data name="StudentServiceAdapterNotFound" xml:space="preserve">
+    <value>El estudiante no ha sido encontrado</value>
+  </data>
+  <data name="TranscriptDialogEndMessage" xml:space="preserve">
+    <value>Un gusto haberte logrado apoyar. Estoy para lo que necesites</value>
+  </data>
+  <data name="TranscriptDialogInitialMessage" xml:space="preserve">
+    <value>Por favor indícame tu ID UNIMINUTO para continuar:
+
+En el caso de tener 6 dígitos, debes anteponer 3 ceros (000). En el caso de tener 5 dígitos, debes anteponer 4 ceros (0000)</value>
+  </data>
+  <data name="TranscriptDialogInvalidCode" xml:space="preserve">
+    <value>El código suministrado de estudiante no es valido</value>
+  </data>
+  <data name="WelcomeMessage" xml:space="preserve">
+    <value>Bienvenido al Bot BIU</value>
+  </data>
+</root>

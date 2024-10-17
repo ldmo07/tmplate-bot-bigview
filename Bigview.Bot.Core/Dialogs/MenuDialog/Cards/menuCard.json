@@ -1,0 +1,52 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "¡Amig@ Estudiante! ¿Cómo puedo ayudarte?",
+      "size": "Medium",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Solicitudes Acádemicas",
+      "data": {
+        "option": "firstcard"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Bienestar Estudiantil",
+      "data": {
+        "option": "2"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Servicio Tecnológico",
+      "data": {
+        "option": "3"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "PQRS",
+      "data": {
+        "option": "4"
+      }
+    },
+
+    {
+      "type": "Action.Submit",
+      "title": "Regresar al menú anterior",
+      "data": {
+        "option": "5"
+      }
+    }
+
+  ]
+}

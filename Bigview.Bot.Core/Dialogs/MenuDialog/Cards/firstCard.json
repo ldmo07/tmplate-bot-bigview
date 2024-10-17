@@ -1,0 +1,37 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Puedo brindarte información sobre:",
+      "size": "Medium",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Génesis + y solicitudes académicas",
+      "data": {
+        "option": "secondcard"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Aulas virtuales",
+      "data": {
+        "option": "2"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Recibo de Matrícula",
+      "data": {
+        "option": "3"
+      }
+    }
+
+  ]
+}

@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>true</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+
+    <PackageReference Include="Azure.AI.Language.Conversations" Version="1.0.0" />
+
+    <PackageReference Include="Azure.AI.Language.QuestionAnswering" Version="1.1.0" />
+
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="5.2.0" />
+
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.16.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.19.3" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.ApplicationInsights.Core" Version="4.19.3" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.19.3" />
+    <PackageReference Include="Microsoft.Recognizers.Text.DataTypes.TimexExpression" Version="1.8.8" />
+  </ItemGroup>
+  
+  
+  <ItemGroup>
+    <None Remove="Dialogs\MenuDialog\Cards\firstCard.json" />
+    <None Remove="Dialogs\MenuDialog\Cards\secondCard.json" />
+    <None Remove="Dialogs\WelcomeDialog\Cards\menuCard.json" />
+    <None Remove="Dialogs\WelcomeDialog\Cards\welcomeCard.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Dialogs\MenuDialog\Cards\secondCard.json" />
+    <EmbeddedResource Include="Dialogs\MenuDialog\Cards\firstCard.json" />
+    <EmbeddedResource Include="Dialogs\MenuDialog\Cards\menuCard.json" />
+    <EmbeddedResource Include="Dialogs\WelcomeDialog\Cards\welcomeCard.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\Http\" />
+    <Folder Include="Dialogs\StudentDialog\Cards\" />
+    <Folder Include="Dialogs\StudentDialog\Cognitives\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

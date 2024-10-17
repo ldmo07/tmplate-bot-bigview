@@ -1,0 +1,37 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Te podemos brindar ayuda en:",
+      "size": "Medium",
+      "weight": "Bolder"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.Submit",
+      "title": "Sábana de notas",
+      "data": {
+        "option": "MenuDialog"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Postulación a grado",
+      "data": {
+        "option": "2"
+      }
+    },
+    {
+      "type": "Action.Submit",
+      "title": "Regresar al menú anterior",
+      "data": {
+        "option": "3"
+      }
+    }
+
+  ]
+}
